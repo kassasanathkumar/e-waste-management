@@ -12,7 +12,6 @@ body{
     margin: 0;
 }
 
-
 /* Heading */
 .heading h2{
     font-size: 28px;
@@ -44,22 +43,7 @@ body{
     background-color: #e6edff;
     color: #303054;
 }
-.don-sec {
-    padding-top: 60px; /* Adjust the top padding to create space below the navbar */
-}
 
-.don-box {
-    height: 500px; /* Set a fixed height for the donation boxes */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-@media (max-width: 992px) {
-    .don-box {
-        height: auto; /* Reset the height for smaller screens */
-    }
-}
 /* Header */
 header{
     background-color: #303054;
@@ -104,7 +88,9 @@ nav{
     width: 20px;
     margin-left: 15px;
 }
-
+.home-sec{
+    height: 100vh;
+}
 .home-sec .home-content {
     align-items: center;
 }
@@ -168,7 +154,7 @@ nav{
 }
 
 .don-sec .don-box{
-    margin: 50px 0;
+    margin: 20px 0;
     background-color: #fff;
     padding: 50px;
     text-align: center;
@@ -342,4 +328,25 @@ footer .social a img{
 
 ::-webkit-scrollbar-thumb{
     background: #303054;
+}
+#home{
+    background-image: url('img/org.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+            background-size: cover; /* Adjust to 'contain' or '100% 100%' based on your preference */
+            background-position: center center; /* Adjust as needed */
+            background-repeat: no-repeat;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 30vw;
+    top: 210px;
+    align-items: center;
+    align-content: center;
+}
+.buttons{
+    position: relative;
+    left: 35%;
 }

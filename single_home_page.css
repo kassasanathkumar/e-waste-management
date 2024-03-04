@@ -12,7 +12,6 @@ body{
     margin: 0;
 }
 
-
 /* Heading */
 .heading h2{
     font-size: 28px;
@@ -44,22 +43,7 @@ body{
     background-color: #e6edff;
     color: #303054;
 }
-.don-sec {
-    padding-top: 60px; /* Adjust the top padding to create space below the navbar */
-}
 
-.don-box {
-    height: 500px; /* Set a fixed height for the donation boxes */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-@media (max-width: 992px) {
-    .don-box {
-        height: auto; /* Reset the height for smaller screens */
-    }
-}
 /* Header */
 header{
     background-color: #303054;
@@ -168,7 +152,7 @@ nav{
 }
 
 .don-sec .don-box{
-    margin: 50px 0;
+    margin: 20px 0;
     background-color: #fff;
     padding: 50px;
     text-align: center;

@@ -6,12 +6,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 body{
     margin: 0;
 }
-
 
 /* Heading */
 .heading h2{
@@ -44,22 +44,7 @@ body{
     background-color: #e6edff;
     color: #303054;
 }
-.don-sec {
-    padding-top: 60px; /* Adjust the top padding to create space below the navbar */
-}
 
-.don-box {
-    height: 500px; /* Set a fixed height for the donation boxes */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-@media (max-width: 992px) {
-    .don-box {
-        height: auto; /* Reset the height for smaller screens */
-    }
-}
 /* Header */
 header{
     background-color: #303054;
@@ -295,7 +280,7 @@ nav{
 footer{
     background-color: #303054;
     color: #e6edff;
-    padding: 50px 0;
+    padding: 150px 0;
 }
 footer h4{
     margin-bottom: 20px;
@@ -343,3 +328,184 @@ footer .social a img{
 ::-webkit-scrollbar-thumb{
     background: #303054;
 }
+#send1{
+    width: 100vw;
+    height: 80vh;
+    background-color: #d4d4d4;
+    position: relative;
+    top: 11vh;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.registration-form {
+    /* max-width: 600px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: baseline;
+    margin: 10px 100px 10px 100px;
+    flex-wrap: wrap;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.form-group input {
+    border: 10%;
+    border: none;
+    border-bottom: 1px solid #000000; /* Add an underline */
+    padding: 8px;
+    width: 500px; /* Set your desired width here */
+    height: 2em;
+    box-sizing: border-box;
+    background: none; /* Set background to none */
+        
+}
+#send11{
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#form-group-address textarea {
+    width: 400px; /* Set your desired width here */
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #303054;
+    color: #e6edff;
+    padding: 20px 0; /* Adjusted padding */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer1{
+    height: 200px;
+    width: 100%;
+    padding-top: 20px; /* Adjusted padding */
+    position: static;
+    bottom: 0px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#container_1{
+    height: 180vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: center;
+    background-color: #eaeaea;
+}
+#container_2 {
+    height: 150vh;
+    width: 75vw;
+    border: #000000 solid thin;
+    border-radius: 4%;
+    border-width: 1px 1px 1px 1px;
+    background-color:white;
+    position: relative;
+    left: 15vw;
+    top: 5vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: center;
+}
+
+.registration-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Adjusted alignment */
+    margin: 10px;
+}
+#form-group_11{
+    margin-top: 25px;
+    position: relative;
+    top: 25px;
+}
+#choice-box_1{
+    position: relative;
+    left: 10px;
+}
+.submit-button {
+    display: inline;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 100px;
+}
+
+/* Hover effect for the submit button */
+.submit-button:hover {
+    background-color: yellowgreen;
+}
+#submitButton{
+    display: block;
+}
+#hello{
+    position: relative;
+    top: 15px;
+  }
+  .input {
+    margin-top: 10px; 
+  }
+  #fullname, #collection_name, #email, #phone, #state, #district, #town, #address, #choices {
+    margin-top: 2px; 
+  }
+  #fullname{
+    position: relative;
+    margin-top: 5px;
+  }

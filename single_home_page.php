@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech-Reclaim
     </title>
-    <link rel="stylesheet" href="user_home.css">
-    <link rel="stylesheet" href="css\responsive.css">
+    <link rel="stylesheet" href="single_home_page.css">
+    <link rel="stylesheet" href="home_responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
@@ -22,7 +22,7 @@
         <header>
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="user_home.html">Tech-Reclaim</a>
+                    <a class="navbar-brand" href="single_home_page.html">Tech-Reclaim</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="user_home.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="single_home_page.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#donation">Sell</a>
@@ -44,7 +44,7 @@
                                 <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
+                                <a class="nav-link" href="common_home_page.html">logout</a>
                             </li>
                         </ul>
                     </div>
@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>Contact No : <a href="tel: +9198659*59">+91 98659*59</a></p>
+            
                     </div>
                     <div class="col-lg-6">
                         <div class="social">
@@ -82,7 +82,7 @@
                             <h2>We <span>TECH RECLAIM</span> manage e-wastage for needy peoples</h2>
                             <p>Transforming Electronic Waste into Opportunities</p>
                             <div class="buttons">
-                                <a href="send2.html" class="btn1">sell now</a>
+                                <a href="./single_sell_form.php" class="btn1">sell now</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,9 @@
             </div>
         </div>
     </section>
-
+ <div style="width: 100%; display: flex; justify-content: center;">
+    <a class="btn btn-primary" href="./collection_details.php" role="button">collection centers</a>
+</div>
     <section class="don-sec" id="donation">
         <div class="container">
             <div class="heading">
@@ -104,50 +106,50 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="don-box">
-                        <img src="img/don/clothing.png" alt="img">
+                        <img src="./img/mobiles.jpg" alt="img">
                         <h3>Mobiles</h3>
                         <p>Toxic materials in landfills.</p>
-                        <a href="send2.html" class="btn1">Sell now</a>
+                        <a href="single_sell_form.php" class="btn1">Sell now</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="don-box">
-                        <img src="img/don/sneakers.png" alt="img">
+                        <img src="./img/lap.jpg" alt="img">
                         <h3>Laptops</h3>
                         <p>Valuable parts, harmful disposal.</p>
-                        <a href="send2.html" class="btn1">Sell now</a>
+                        <a href="single_sell_form.php" class="btn1">Sell now</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="don-box">
-                        <img src="img/don/salary.png" alt="img">
+                        <img src="./img/tv.jpg" alt="img">
                         <h3>TV</h3>
                         <p>Hazardous screens, environmental impact.</p>
-                        <a href="send2.html" class="btn1">Sell now</a>
+                        <a href="single_sell_form.php" class="btn1">Sell now</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="don-box">
-                        <img src="img/don/gadgets.png" alt="img">
+                        <img src="./img/computers.jpg" alt="img">
                         <h3>Computers</h3>
                         <p>E-waste from outdated hardware.</p>
-                        <a href="send2.html" class="btn1">Sell now</a>
+                        <a href="single_sell_form.php" class="btn1">Sell now</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="don-box">
-                        <img src="img/don/book.png" alt="img">
+                        <img src="./img/ref.jpg" alt="img">
                         <h3>Refrigerators</h3>
                         <p>CFCs, harmful refrigerant disposal.</p>
-                        <a href="send2.html" class="btn1">Sell now</a>
+                        <a href="single_sell_form.php" class="btn1">Sell now</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="don-box">
-                        <img src="img/don/shopping-bag.png" alt="img">
+                        <img src="./img/others.jpg" alt="img">
                         <h3>others</h3>
                         <p>Recycle for sustainable electronic usage </p>
-                        <a href="send2.html" class="btn1">Sell now</a>
+                        <a href="single_sell_form.php" class="btn1">Sell now</a>
                     </div>
                 </div>
             </div>
@@ -183,18 +185,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 about-img">
-                    <img src="img/img-2.jpeg" alt="about">
+                    <img src="img\img-1.png" alt="about">
                 </div>
                 <div class="col-lg-8 order-first order-lg-last">
                     <div class="heading">
                         <h2>What We Do & Why We Do</h2>
                     </div>
-                    
                     <p>Introduce a platform simplifying electronic waste management, connecting users, collection centers, and recycling firms seamlessly.<br><br>Inefficient management of electronic waste leads to unsustainable consumption patterns and environmental degradation.
                     </p>
                     <p>Inadequate electronic waste handling exposes communities to harmful chemicals, leading to health problems such as respiratory issues, reproductive disorders, and cancer.
                     </p>
-                    
                 </div>
             </div>
         </div>
@@ -265,10 +265,7 @@
 
                 <div class="col-lg-4">
                     <div class="col-one">
-                        <h4>Code Convent foundation</h4>
-                        <p>Address : 3, Near IT Park, Mahatma Gandhi Road, Mumbai 440000 </p>
-                        <p>Contact No : <a href="tel: +91 98659*59">+91 98659*59</a></p>
-                        <p>Email : <a href="mailto:foundation@code.com">foundation@code.com</a></p>
+                        
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -293,7 +290,7 @@
                             <a href="#"><img src="img/icons/linkedin.png" alt="linkedin"></a>
                             <a href="#"><img src="img/icons/gmail.png" alt="gnail"></a>
                         </div>
-                        <p>Copyright &copy; 2022 | All Right Reserved</p>
+                        <p>Copyright &copy; 2024 | All Right Reserved</p>
                     </div>
                 </div>
             </div>
